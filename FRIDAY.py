@@ -12,6 +12,8 @@ import sys
 import subprocess
 import random
 
+pyautogui.FAILSAFE = False
+
 chrome_path ='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe'
 engine = pyttsx3.init('sapi5')
 client = wolframalpha.Client('E7Q874-J4279K73X4')
